@@ -115,3 +115,18 @@ header ul li a:hover {
   background-position: left bottom;
   background-color: blueviolet;
 }
+
+@media only screen and (max-width: 480px) {
+  .container.name h1 {
+    font-size: 30px;
+  }
+  .container.name h5 {
+    font-size: 15px;
+  }
+
+  #about p {
+    font-size: 80px;
+
+    text-align: center;
+  }
+}
